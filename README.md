@@ -1,3 +1,6 @@
+# Задание
+![alt text](https://raw.githubusercontent.com/it-stop/electronic-sheet/master/task.jpeg)
+
 # Endpoints
 - /login
     - email
