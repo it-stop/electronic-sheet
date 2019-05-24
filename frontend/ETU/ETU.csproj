@@ -44,16 +44,98 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Form1.cs">
+    <Compile Include="Add_head_teacher.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form1.Designer.cs">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <Compile Include="Add_head_teacher.Designer.cs">
+      <DependentUpon>Add_head_teacher.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ChangeDirector.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ChangeDirector.Designer.cs">
+      <DependentUpon>ChangeDirector.cs</DependentUpon>
+    </Compile>
+    <Compile Include="QuarterSee.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="QuarterSee.Designer.cs">
+      <DependentUpon>QuarterSee.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SendingData.cs" />
+    <Compile Include="Sign_in.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Sign_in.Designer.cs">
+      <DependentUpon>Sign_in.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Menu_teacher.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Menu_teacher.Designer.cs">
+      <DependentUpon>Menu_teacher.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Add_pupil.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Add_pupil.designer.cs">
+      <DependentUpon>Add_pupil.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Menu_administration.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Menu_administration.Designer.cs">
+      <DependentUpon>Menu_administration.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Menu_pupil.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Menu_pupil.Designer.cs">
+      <DependentUpon>Menu_pupil.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Add_teacher.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Add_teacher.Designer.cs">
+      <DependentUpon>Add_teacher.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Menu_head_teacher.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Menu_head_teacher.Designer.cs">
+      <DependentUpon>Menu_head_teacher.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="Form1.resx">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <EmbeddedResource Include="Add_head_teacher.resx">
+      <DependentUpon>Add_head_teacher.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ChangeDirector.resx">
+      <DependentUpon>ChangeDirector.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="QuarterSee.resx">
+      <DependentUpon>QuarterSee.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Sign_in.resx">
+      <DependentUpon>Sign_in.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Menu_teacher.resx">
+      <DependentUpon>Menu_teacher.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Add_pupil.resx">
+      <DependentUpon>Add_pupil.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Menu_administration.resx">
+      <DependentUpon>Menu_administration.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Menu_pupil.resx">
+      <DependentUpon>Menu_pupil.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Add_teacher.resx">
+      <DependentUpon>Add_teacher.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Menu_head_teacher.resx">
+      <DependentUpon>Menu_head_teacher.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

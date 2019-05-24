@@ -1,0 +1,32 @@
+# Endpoints
+- /login
+    - email
+    - password
+- /get_users
+- /get_user/<uid>
+- /add_user
+    - email
+    - first_name
+    - middle_name
+    - last_name
+    - password
+    - birth_date
+    - entry_date
+    - role
+- /add_lesson
+    - teacher_id
+    - name
+- /get_lessons
+- /get_lesson/<uid>
+- /add_year_lesson
+    - year
+    - quarter
+    - lesson_id
+- /add_mark
+    - teacher_id
+    - student_id
+    - lesson_id
+    - year
+    - quarter
+    - mark
+- /get_marks
