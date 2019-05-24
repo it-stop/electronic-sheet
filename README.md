@@ -1,7 +1,7 @@
 # Задание
 ![alt text](https://raw.githubusercontent.com/it-stop/electronic-sheet/master/task.jpeg)
 
-# Endpoints
+# Backend Endpoints
 - /login
     - email
     - password
