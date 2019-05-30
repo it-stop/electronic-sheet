@@ -3,8 +3,10 @@ from mysql import connector
 from repository import Repository
 from json import JSONEncoder
 from flask import Flask, request
+from flask_cors import CORS
 
 app = Flask(__name__)
+cors = CORS(app)
 rep = None
 json = JSONEncoder()
 
